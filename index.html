@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Converter</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Text Converter</h1>
+		<div class="input-section">
+			<label for="text-input">Enter text:</label>
+			<textarea id="text-input"></textarea>
+		</div>
+		<div class="button-section">
+			<button id="convert-to-uppercase">Convert to Uppercase</button>
+			<button id="convert-to-lowercase">Convert to Lowercase</button>
+			<button id="word-count">Word Count</button>
+			<button id="vowel-count">Vowel Count</button>
+		</div>
+		<div class="output-section">
+			<div class="output-row">
+				<div class="output-label">Converted Text:</div>
+				<div id="converted-text" class="output-value"></div>
+			</div>
+			<div class="output-row">
+				<div class="output-label">Word Count:</div>
+				<div id="word-count-value" class="output-value"></div>
+			</div>
+			<div class="output-row">
+				<div class="output-label">Vowel Count:</div>
+				<div id="vowel-count-value" class="output-value"></div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
